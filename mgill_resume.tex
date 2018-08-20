@@ -1,0 +1,143 @@
+%-------------------------
+% Author : Muhammad Gill
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%%%%%%%%%%%  Resume %%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%---- info -----
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\href{http://mugill.com}{\Large Muhammad Gill}} & \href{http://mugill.com}{http://mugill.com} \\
+\href{mailto:mhgill@edu.uwaterloo.ca}{mhgill@edu.uwaterloo.ca} & \href{https://github.com/mhgill}{https://github.com/mhgill} \\
+  & \href{https://www.linkedin.com/in/mhgill}{https://www.linkedin.com/in/mhgill} \\
+
+\end{tabular*}
+
+%---- education -----
+\section{education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Waterloo}{Sept. 2016 - Present}{Waterloo, ON}{Computer Engineering (Bachelors)}
+\resumeSubHeadingListEnd
+
+%---- experience -----
+\section{experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Blackberry}{Waterloo, ON}{Software Developer}{May - Aug 2018}
+\resumeItemListStart
+\item {Developed deep learning model for syntax conversion from PL/SQL (oracle) to mySQL (100\% precision)}
+\item {Developed and optimized dynamic scripts to efficiently and securely migrate over 20\% of company databases (schema, procedures and data) between different, incompatible platforms.}
+\item {Customized, optimized the source code of an open source mySQL DB to increase insert speed by 12\%}
+\item {Contributed greatly in the development of many other confidential projects, currently being deployed to millions globally}
+\resumeItemListEnd
+
+\resumeSubheading
+{Nielsen}{Toronto, ON}{Software Developer}{Sept 2017 - Jan 2018}
+\resumeItemListStart
+\item {Developed generic Integration API for synchronous data flow between: Facebook Workplace, Active Directory, Salesforce, ADP, SharePoint and SQL database}
+\item {Developed a dynamic script writer (DSW). DSW successfully wrote 50+ scripts that were used to process 20,000+ unique data files}
+\item {Wrote 3 multi-purpose, dynamic web services for NoSQL infrastructure used by 10+ company apps}
+\item {Developed data analysis and report tools; developed automation API for dynamic powerpoint generation – used by 2 departments, 50+ coworkers, saving 10 000’s of hours per month}
+\resumeItemListEnd
+
+\resumeSubheading
+{FGF Brands}{Toronto, ON}{Software Developer}{Jan 2017 - April 2017}
+\resumeItemListStart
+\item {Developed complete ETS (Employee Tracking System)}
+\item {Developed ETS app (Native IOS and Android) for GPS tracking using Google Maps API (100+ users)}
+\item {Developed web service, and entire Backend for ETS to handle all incoming requests from app instances using antiforgery and secure data transfer protocols}
+\item {Developed web interface (web pages) for data display (displaying 10 000+ records and logs for 100+ users)}
+\resumeItemListEnd
+
+\resumeSubheading
+{SIDE PROJECTS (Freelancer.com)}{}{Software Freelancing}{Feb 2011 - Present}
+\resumeItemListStart
+\item {Independently Developed 3200 elo rated chess engine (neural network)}
+\item {Developed automation software for pokemon game (1100+ downloads, \$11 000+ revenue) and Xbot for RS MMORPG (400+ downloads)}
+\item {Completed 30+ freelancer Projects involving deep learning software, web scrapers, web services, websites, mobile apps (earned 23,000+ USD)}
+\item {Developed 2 mobile Apps for news reporting (600+ downloads)}
+\item {currently working on multiple projects; using machine learning to solve a host of real world problems}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---- skills -----
+\section{skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Operating Systems}
+{Linux (Debian/Ubuntu), macOS, Windows}
+\resumeSubItem{Languages}
+{Python, Javascript, C++, SQL, Java, C\#, Bash}
+\resumeSubItem{Technologies}
+{Tensorflow, .NET, Node.js, ASP.NET, scikit-learn, Selenium, MATLAB, Hadoop, Express.js}
+\resumeSubItem{Tools}
+{Git, XCode, Visual Studio, Eclipse, VS Code, Azure, mySQL, mariaDB, MongoDB, AWS}
+\resumeSubHeadingListEnd
+
+%---------------END-------------------
+\end{document}

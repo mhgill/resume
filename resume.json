@@ -1,0 +1,104 @@
+{
+    "intro": [
+        {
+            "Who am I?": [
+                "Hi! How are you? That wasn't rhetorical... Sorry, where are my manners? Let us start over. My name is Muhammad Gill",
+                " and I am a 21 year old living in Ontario, Canada. You are currently browsing my small CV website.",
+                "Let’s talk about you - according to my learning algorithm, there is about a 68% chance that you are a recruiter,",
+                "and a 23% chance that you are one of my peers (based on metrics such as recruiting season). regardless of who you are, welcome!"
+            ]
+        },
+        {
+            "So what do you do for a living...?": [
+                "Is this not a bad question to start with? What if their not particularly proud of their work? Now you are stuck.",
+                "You can try: That’s a really amazing job! But that could just get you into more trouble... Anyway back on topic, I like to call",
+                "myself a Software Engineer. I enjoy delving into the development of deep learning models, web services, automation macros,",
+                "and all sorts of backend systems for money (as a freelancer). Oh, and a little bit of mobile and web development ",
+                "(as you can see, my front-end skills are not the best). So yeah, there’s a high chance that I am a qualified candidate -",
+                "qualified candidate for what? That is for you to decide."
+            ]
+        },
+        {
+            "Want to learn more about my skills?": "Navigate to my experience or education pages (using the Navigator in the corner)!"
+        }
+    ],
+    "skills": [
+        {
+            "Operating Systems": "Linux (Debian/Ubuntu), macOS, Windows"
+        },
+        {
+            "Languages": "Python, Javascript, C++, SQL, Java, C#, Bash"
+        },
+        {
+            "Technologies": "Tensorflow, .NET, Node.js, ASP.NET, scikit-learn, Selenium, MATLAB, Hadoop, Express.js"
+        },
+        {
+            "Tools": "Git, XCode, Visual Studio, Eclipse, VS Code, Azure, mySQL, mariaDB, MongoDB, AWS"
+        }
+    ],
+    "experience": [
+        {
+            "organization": "Blackberry",
+            "period": "May - Aug 2018",
+            "position": "Software Developer",
+            "location": "Waterloo, ON",
+            "description": [
+                "Developed deep learning model for syntax conversion from PL/SQL (oracle) to mySQL (100% precision)",
+                "Developed and optimized dynamic scripts to efficiently and securely migrate over 20% of company databases (schema, procedures and data) between different, incompatible platforms.",
+                "Customized, optimized the source code of an open source mySQL DB to increase insert speed by 12%",
+                "Contributed greatly in the development of many other confidential projects, currently being deployed to millions globally"
+            ]
+        },
+        {
+            "organization": "Nielsen",
+            "period": "Sept 2017 - Jan 2018",
+            "position": "Software Developer",
+            "location": "Toronto, ON",
+            "description": [
+                "Developed generic Integration API for synchronous data flow between: Facebook Workplace, Active Directory, Salesforce, ADP, SharePoint and SQL database",
+                "Developed a dynamic script writer (DSW). DSW successfully wrote 50+ scripts that were used to process 20,000+ unique data files",
+                "Wrote 3 multi-purpose, dynamic web services for NoSQL infrastructure used by 10+ company apps",
+                "Developed data analysis and report tools; developed automation API for dynamic powerpoint generation – used by 2 departments, 50+ coworkers, saving 10 000’s of hours per month"
+            ]
+        },
+        {
+            "organization": "FGF Brands",
+            "period": "Jan 2017 - April 2017",
+            "position": "Software Developer",
+            "location": "Toronto, ON",
+            "description": [
+                "Developed complete ETS (Employee Tracking System)",
+                "Developed ETS app (Native IOS and Android) for GPS tracking using Google Maps API (100+ users)",
+                "Developed web service, and entire Backend for ETS to handle all incoming requests from app instances using antiforgery and secure data transfer protocols",
+                "Developed web interface (web pages) for data display (displaying 10 000+ records and logs for 100+ users)"
+            ]
+        },
+        {
+            "organization": "SIDE PROJECTS (Freelancer.com)",
+            "period": "Feb 2011 - Present",
+            "position": "Software Freelancing",
+            "location": "",
+            "description": [
+                "Independently Developed 3200 elo rated chess engine (neural network)",
+                "Developed automation software for pokemon game (1100+ downloads, $11 000+ revenue) and Xbot for RS MMORPG (400+ downloads)",
+                "Completed 30+ freelancer Projects involving deep learning software, web scrapers, web services, websites, mobile apps (earned 23,000+ USD)",
+                "Developed 2 mobile Apps for news reporting (600+ downloads)",
+                "currently working on multiple projects; using machine learning to solve a host of real world problems"
+            ]
+        }
+    ],
+    "info": {
+        "name": "Muhammad Gill",
+        "personal_web": "http://mugill.com",
+        "github": "https://github.com/mhgill",
+        "linkedin": "https://www.linkedin.com/in/mhgill",
+        "email": "mhgill@edu.uwaterloo.ca",
+        "phone": " "
+    },
+    "education": {
+        "institute": "University of Waterloo",
+        "institute_location": "Waterloo, ON",
+        "degree": "Computer Engineering (Bachelors)",
+        "study_period": "Sept. 2016 - Present"
+    }
+}
