@@ -53,8 +53,8 @@ def info( title, fname):
         tex += '\n' + data['phone'] + ' & \href{' + data['linkedin'] + '}{' + data['linkedin'] + '} \\\\\n'
     return format(title, tex) + '\n\\end{tabular*}\n\n'
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+#reload(sys)
+#sys.setdefaultencoding('utf8')
 
 info = info("info", 'resume.json')
 education = education("education", "resume.json")
