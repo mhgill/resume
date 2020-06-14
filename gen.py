@@ -58,7 +58,7 @@ def info( title, fname):
 
 info = info("info", 'resume.json')
 education = education("education", "resume.json")
-experience = experience("experience", "resume.json")
+experience = experience("experience (Most Recent 3)", "resume.json")
 skills = skills("skills", "resume.json")
 
 template_file = open("resume_template.tex")
@@ -66,10 +66,6 @@ template = template_file.read()
 template_file.close()
 
 out = 'mgill_resume'
-try:
-    out = sys.argv[1]
-except:
-    pass
 
 resume = open(out + '.tex', 'w')
 resume.write(template.replace('*Resume*', info + education + experience + skills))
