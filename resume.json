@@ -44,9 +44,9 @@
             "location": "Mountain View, California, USA",
             "description": [
                 "Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95% accuracy on dataset sequences.",
-                "Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by over 80%.",
+                "Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by 80%.",
                 "Modified a BERT transformer architecture (python, tensorflow) to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6%.",
-                "Achieved state-of-the-art precision (tensorflow model) classifying wikipedia text, using a modified transformer model.",
+                "Achieved state-of-the-art precision classifying wikipedia text, using a modified transformer model.",
                 "Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.",
                 "Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classfication."
             ]
@@ -58,7 +58,7 @@
             "location": "Montreal, Quebec, Canada",
             "description": [
                 "Wrote, and deployed (using kubernetes) a parallel label propagation algorithm (c++) to label unlabelled data samples, increasing algorithm runtime speed by 1800%, over single machine speed.",
-                "Independently designed and implemented semisupervised learning pipeline (cpp) for very large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98%.",
+                "Independently designed and implemented semisupervised learning pipeline (tensorflow, cpp) for very large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98%.",
                 "Wrote custom evaluation binary (python, cpp, javascript) to score the semi-supervised and unsupervised models, saving 100s of manual hours.",
                 "Wrote a custom node transformation binary (c++, python) to generate new datasets capabale of key-shifting to create 30+ unique label datasets."
             ]
@@ -71,8 +71,7 @@
             "description": [
                 "Developed deep learning model for relational database syntax conversion from PL/SQL (oracle) to mySQL (100% precision).",
                 "Developed and optimized dynamic scripts (Java) to efficiently and securely migrate over 20% of company databases (schema, procedures and data) between different, incompatible platforms.",
-                "Customized, optimized an open source mySQL DB (mariaDB) to increase database insert speed by 12%.",
-                "Contributed greatly to many other confidential projects (java, javascript, HTML), currently being deployed to millions globally."
+                "Contributed greatly to many other confidential projects (java, javascript, HTML)."
             ]
         },
         {
