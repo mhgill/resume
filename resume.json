@@ -27,10 +27,10 @@
             "Operating Systems": "Linux (Debian/Ubuntu), macOS, Windows"
         },
         {
-            "Languages": "C++, Python, Java, SQL, Bash, Javascript"
+            "Languages": "C++, Python, Java, SQL, Bash, Javascript, CSS, HTML"
         },
         {
-            "Technologies": "Tensorflow, scikit-learn, .NET, Node.js, ASP.NET, MATLAB, Express.js"
+            "Technologies": "Tensorflow, scikit-learn, Pytorch, kubernetes, .NET, Node.js, ASP.NET, MATLAB, Express.js"
         },
         {
             "Tools": "Git, XCode, Visual Studio, Eclipse, VS Code, Azure, mySQL, mariaDB, MongoDB, AWS"
@@ -40,15 +40,15 @@
         {
             "organization": "Google",
             "period": "September 2019 - December 2019",
-            "position": "Software Developer",
+            "position": "Machine Learning Engineer",
             "location": "Mountain View, California, USA",
             "description": [
-                "Pretrained a BERT encoder on large volumes of english text using cutting edge parallel TPU technology to achieve over 95% accuracy on dataset sequences.",
-                "Optimized database queries to run on Googles parallel query engine, reducing runtime by over 80%.",
-                "Modified a BERT transformer architecture to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6%.",
-                "Achieved state-of-the-art precision classifying wikipedia text, using a modified transformer model.",
-                "Wrote a parallel data processing pipeline to generate text datasets to be used for training almost any Ontology classification model.",
-                "Authored a research paper: Text Object Ontology, in which I present state of the art results in Ontological Text Classfication."
+                "Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95% accuracy on dataset sequences.",
+                "Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by over 80%.",
+                "Modified a BERT transformer architecture (python, tensorflow) to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6%.",
+                "Achieved state-of-the-art precision (tensorflow model) classifying wikipedia text, using a modified transformer model.",
+                "Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.",
+                "Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classfication."
             ]
         },
         {
@@ -57,22 +57,22 @@
             "position": "Software Developer",
             "location": "Montreal, Quebec, Canada",
             "description": [
-                "Wrote, and deployed (to hundreds of servers) a parallel label propagation algorithm to label unlabelled data samples, increasing algorithm runtime speed by 1800%, over single machine speed.",
-                "Independently designed and implemented semisupervised learning pipeline for very large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98%.",
-                "Wrote custom evaluation binary to score the semi-supervised and unsupervised models, saving 100s of manual hours.",
-                "Wrote a custom node transformation binary to generate new datasets capabale of key-shifting to create 30+ unique label datasets."
+                "Wrote, and deployed (using kubernetes) a parallel label propagation algorithm (c++) to label unlabelled data samples, increasing algorithm runtime speed by 1800%, over single machine speed.",
+                "Independently designed and implemented semisupervised learning pipeline (cpp) for very large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98%.",
+                "Wrote custom evaluation binary (python, cpp, javascript) to score the semi-supervised and unsupervised models, saving 100s of manual hours.",
+                "Wrote a custom node transformation binary (c++, python) to generate new datasets capabale of key-shifting to create 30+ unique label datasets."
             ]
         },
         {
-            "organization": "Blackberry",
+            "organization": "Blackberry LTD",
             "period": "May 2018 - August 2018",
             "position": "Software Developer",
             "location": "Waterloo, Ontario, Canada",
             "description": [
-                "Developed deep learning model for syntax conversion from PL/SQL (oracle) to mySQL (100% precision).",
-                "Developed and optimized dynamic scripts to efficiently and securely migrate over 20% of company databases (schema, procedures and data) between different, incompatible platforms.",
-                "Customized, optimized an open source mySQL DB (mariaDB) to increase insert speed by 12%.",
-                "Contributed greatly to many other confidential projects, currently being deployed to millions globally."
+                "Developed deep learning model for relational database syntax conversion from PL/SQL (oracle) to mySQL (100% precision).",
+                "Developed and optimized dynamic scripts (Java) to efficiently and securely migrate over 20% of company databases (schema, procedures and data) between different, incompatible platforms.",
+                "Customized, optimized an open source mySQL DB (mariaDB) to increase database insert speed by 12%.",
+                "Contributed greatly to many other confidential projects (java, javascript, HTML), currently being deployed to millions globally."
             ]
         },
         {
@@ -81,8 +81,8 @@
             "position": "Software Developer",
             "location": "",
             "description": [
-                "Wrote a model to accurately predict stock price volatility using financial derivative (options) flow having over 82% 3-day accuracy.",
-                "Independently developed 3200+ elo chess engine (neural network). Trained using self generated dataset (90+ million unique chess positions)."
+                "Wrote a model (python) to accurately predict stock price volatility using financial derivative (options) flow having over 82% 3-day accuracy.",
+                "Independently developed (c++) 3200+ elo chess engine (neural network). Trained using self generated dataset (90+ million unique chess positions)."
             ]
         }
     ],
