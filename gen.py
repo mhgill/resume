@@ -58,7 +58,7 @@ def info( title, fname):
 
 info = info("info", 'resume.json')
 education = education("education", "resume.json")
-experience = experience("experience (Most Recent 3)", "resume.json")
+experience = experience("experience", "resume.json")
 skills = skills("skills", "resume.json")
 
 template_file = open("resume_template.tex")

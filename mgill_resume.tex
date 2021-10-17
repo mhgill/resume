@@ -2,7 +2,7 @@
 % Author : Muhammad Gill
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,12pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -70,9 +70,9 @@
 
 %---- info -----
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-\textbf{\href{http://mugill.com}{\Large Muhammad Gill}} & \href{http://mugill.com}{http://mugill.com} \\
-\href{mailto:mhgill@uwaterloo.ca}{mhgill@uwaterloo.ca} & \href{https://github.com/mhgill}{https://github.com/mhgill} \\
-  & \href{https://www.linkedin.com/in/mhgill}{https://www.linkedin.com/in/mhgill} \\
+\textbf{\href{ }{\Large Muhammad Gill}} & \href{ }{ } \\
+\href{mailto:mhgill@uwaterloo.ca}{mhgill@uwaterloo.ca} & \href{ }{ } \\
+  & \href{ }{ } \\
 
 \end{tabular*}
 
@@ -80,35 +80,37 @@
 \section{education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{University of Waterloo}{Waterloo, ON}{Computer Engineering (Bachelors)}{September 2016 - April 2021}
+{University of Waterloo}{Waterloo, ON}{Computer Engineering (Bachelors)}{Class of 2016}
 \resumeSubHeadingListEnd
 
-%---- experience (Most Recent 3) -----
-\section{experience (Most Recent 3)}
+%---- experience -----
+\section{experience}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Google}{Mountain View, California, USA}{Machine Learning Engineer}{September 2019 - December 2019}
+{Doordash}{Mountain View, California, USA}{Software Developer}{2021 - Present}
 \resumeItemListStart
-\item {Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95\% accuracy on dataset sequences.}
-\item {Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by 80\%.}
+\item {Designed and wrote logic for a large photo-processing distributed system which currently processes, stores, caches, and serves thousands of merchant photos per second.}
+\item {Designed and built AI software to incorporate metrics into extremely large production services. This AI system wrote over 25,000 lines of code that are currently being used in customer-facing production services serving over 20 million users.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Google}{Mountain View, California, USA}{Software Engineer}{2019 - 2020}
+\resumeItemListStart
+\item {Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.}
+\item {Optimized SQL queries to run on Google's parallel query engine, reducing runtime by 80\%.}
 \item {Modified a BERT transformer architecture (python, tensorflow) to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6\%.}
 \item {Achieved state-of-the-art precision classifying wikipedia text, using a modified transformer model.}
-\item {Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.}
-\item {Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classfication.}
-\resumeItemListEnd
-
-\resumeSubheading
-{Google}{Montreal, Quebec, Canada}{Software Developer}{January 2019 - April 2019}
-\resumeItemListStart
+\item {Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95\% accuracy on dataset sequences.}
+\item {Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classification.}
 \item {Wrote, and deployed (using kubernetes) a parallel label propagation algorithm (c++) to label unlabelled data samples, increasing algorithm runtime speed by 1800\%, over single machine speed.}
-\item {Independently designed and implemented semisupervised learning pipeline (tensorflow, cpp) for very large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98\%.}
+\item {Independently designed and implemented semi-supervised learning pipeline (tensorflow, cpp) for large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98\%.}
 \item {Wrote custom evaluation binary (python, cpp, javascript) to score the semi-supervised and unsupervised models, saving 100s of manual hours.}
-\item {Wrote a custom node transformation binary (c++, python) to generate new datasets capabale of key-shifting to create 30+ unique label datasets.}
+\item {Wrote a custom node transformation binary (c++, python) to generate new datasets capable of key-shifting to create 30+ unique label datasets.}
 \resumeItemListEnd
 
 \resumeSubheading
-{Blackberry LTD}{Waterloo, Ontario, Canada}{Software Developer}{May 2018 - August 2018}
+{Blackberry LTD}{Waterloo, Ontario, Canada}{Software Developer}{2018}
 \resumeItemListStart
 \item {Developed deep learning model for relational database syntax conversion from PL/SQL (oracle) to mySQL (100\% precision).}
 \item {Developed and optimized dynamic scripts (Java) to efficiently and securely migrate over 20\% of company databases (schema, procedures and data) between different, incompatible platforms.}
@@ -116,10 +118,17 @@
 \resumeItemListEnd
 
 \resumeSubheading
-{Personal Projects}{}{Software Developer}{Feb 2011 - Present}
+{Nielsen Inc}{Markham, Ontario, Canada}{Software Engineer}{2017}
+\resumeItemListStart
+\item {Wrote data service to process thousands of consumer purchase receipts using open source OCR libraries (saved company thousands of manual hours).}
+\item {Customized, optimized an open source mySQL DB (mariaDB) to increase insert speed by 12\%.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Personal Projects}{}{Software Developer}{2012 - 2017}
 \resumeItemListStart
 \item {Wrote a model (python) to accurately predict stock price volatility using financial derivative (options) flow having over 82\% 3-day accuracy.}
-\item {Independently developed (c++) 3200+ elo chess engine (neural network). Trained using self generated dataset (90+ million unique chess positions).}
+\item {Independently developed (c++) 3200+ elo chess engine (neural network). Trained using a self generated dataset (90+ million unique chess positions).}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd

@@ -10,7 +10,7 @@
         },
         {
             "So what do you do for a living...?": [
-                "Is this not a bad question to start with? What if they are not particularly proud of their work? Now you are stuck.",
+                "Is this not a bad question to start with? What if their not particularly proud of their work? Now you are stuck.",
                 "You can try: That’s a really amazing job! But that could just get you into more trouble... Anyway back on topic, I like to call",
                 "myself a Software Engineer. I enjoy delving into the development of deep learning models, web services, automation macros,",
                 "and all sorts of backend systems for money (as a freelancer). Oh, and a little bit of mobile and web development ",
@@ -39,12 +39,16 @@
     "experience": [
         {
             "organization": "Doordash",
-            "period": "2021 - Present",
+            "period": "2021-Present",
             "position": "Software Developer",
             "location": "Mountain View, California, USA",
             "description": [
-                "Designed and wrote logic for a large photo-processing distributed system which currently processes, stores, caches, and serves thousands of merchant photos per second.",
-                "Designed and built AI software to incorporate metrics into extremely large production services. This AI system wrote over 25,000 lines of code that are currently being used in customer-facing production services serving over 20 million users."
+                "Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95% accuracy on dataset sequences.",
+                "Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by 80%.",
+                "Modified a BERT transformer architecture (python, tensorflow) to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6%.",
+                "Achieved state-of-the-art precision classifying wikipedia text, using a modified transformer model.",
+                "Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.",
+                "Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classfication."
             ]
         },
         {
@@ -53,16 +57,16 @@
             "position": "Software Engineer",
             "location": "Mountain View, California, USA",
             "description": [
-                "Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.",
-                "Optimized SQL queries to run on Google's parallel query engine, reducing runtime by 80%.",
+                "Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95% accuracy on dataset sequences.",
+                "Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by 80%.",
                 "Modified a BERT transformer architecture (python, tensorflow) to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6%.",
                 "Achieved state-of-the-art precision classifying wikipedia text, using a modified transformer model.",
-                "Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95% accuracy on dataset sequences.",
-                "Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classification.",
+                "Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.",
+                "Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classfication.",
                 "Wrote, and deployed (using kubernetes) a parallel label propagation algorithm (c++) to label unlabelled data samples, increasing algorithm runtime speed by 1800%, over single machine speed.",
-                "Independently designed and implemented semi-supervised learning pipeline (tensorflow, cpp) for large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98%.",
+                "Independently designed and implemented semisupervised learning pipeline (tensorflow, cpp) for very large security datasets. Initial, unoptimized models realized accuracy and F1 scores above 98%.",
                 "Wrote custom evaluation binary (python, cpp, javascript) to score the semi-supervised and unsupervised models, saving 100s of manual hours.",
-                "Wrote a custom node transformation binary (c++, python) to generate new datasets capable of key-shifting to create 30+ unique label datasets."
+                "Wrote a custom node transformation binary (c++, python) to generate new datasets capabale of key-shifting to create 30+ unique label datasets."
             ]
         },
         {
@@ -79,29 +83,33 @@
         {
             "organization": "Nielsen Inc",
             "period": "2017",
-            "position": "Software Engineer",
-            "location": "Markham, Ontario, Canada",
+            "position": "Machine Learning Engineer",
+            "location": "Mountain View, California, USA",
             "description": [
-                "Wrote data service to process thousands of consumer purchase receipts using open source OCR libraries (saved company thousands of manual hours).",
-                "Customized, optimized an open source mySQL DB (mariaDB) to increase insert speed by 12%."
+                "Pretrained a BERT encoder (tensorflow) on large volumes of english text using cutting edge parallel TPU technology and kubernetes to achieve over 95% accuracy on dataset sequences.",
+                "Optimized database queries (SQL) to run on Googles parallel query engine, reducing runtime by 80%.",
+                "Modified a BERT transformer architecture (python, tensorflow) to be used with an MLP in order to classify text post-encoding, increasing base classification accuracy by over 6%.",
+                "Achieved state-of-the-art precision classifying wikipedia text, using a modified transformer model.",
+                "Wrote a parallel data processing pipeline (c++) to generate text datasets to be used for training almost any Ontology classification model.",
+                "Authored a research paper (publication): Text Object Ontology, in which I present state of the art results in Ontological Text Classfication."
             ]
         },
         {
             "organization": "Personal Projects",
-            "period": "2012 - 2017",
+            "period": "2014 - 2018",
             "position": "Software Developer",
             "location": "",
             "description": [
                 "Wrote a model (python) to accurately predict stock price volatility using financial derivative (options) flow having over 82% 3-day accuracy.",
-                "Independently developed (c++) 3200+ elo chess engine (neural network). Trained using a self generated dataset (90+ million unique chess positions)."
+                "Independently developed (c++) 3200+ elo chess engine (neural network). Trained using self generated dataset (90+ million unique chess positions)."
             ]
         }
     ],
     "info": {
         "name": "Muhammad Gill",
-        "personal_web": " ",
-        "github": " ",
-        "linkedin": " ",
+        "personal_web": "http://mugill.com",
+        "github": "https://github.com/mhgill",
+        "linkedin": "https://www.linkedin.com/in/mhgill",
         "email": "mhgill@uwaterloo.ca",
         "phone": " "
     },
@@ -109,6 +117,6 @@
         "institute": "University of Waterloo",
         "institute_location": "Waterloo, ON",
         "degree": "Computer Engineering (Bachelors)",
-        "study_period": "Class of 2016"
+        "study_period": "2016"
     }
- } 
+}
